@@ -1,0 +1,68 @@
+#title {
+  background-color: tomato;
+}
+
+.icon {
+  color: palevioletred;
+  margin: 28px;
+}
+
+.icon:hover {
+  color: pink;
+}
+
+.title-image {
+  width: 50%;
+  position: absolute;
+  transform: rotate(25deg);
+}
+
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+h2,h3{
+  font-size: 3rem;font-family: 'Open Sans', sans-serif;font-weight:bold ;
+}
+button {
+  margin: 25px 10px 10px 0;
+  text-align: left;
+}
+#press{
+  background-color: tomato;
+  padding:0% 15% 5%;
+}
+/*------------------------------------------------pricing-----------------------------------------------------------*/
+#p-style{
+  font-size: 2rem;
+  font-family: 'Open Sans', sans-serif;
+}
+.card-style{
+  margin-bottom: 25px;
+}
+.card-style-1{
+  padding: 0 2%;
+}
+
+#cta {
+  background-color: tomato;
+  padding: 10% 15%;
+  color: white;
+}
+
+
+/*------------------------------------------------------footer-----------------------------------------------------------*/
+
+#footer-1 {
+  padding: 3% 15%;
+  text-align: center;
+}
